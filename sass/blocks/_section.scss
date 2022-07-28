@@ -8,7 +8,7 @@
   width: 1170px;
   height: 38px;
   display: flex;
-  margin: 65px 45px 37px;
+  margin: 65px 0 37px;
   justify-content: space-between;
   align-items: center;
 
@@ -26,8 +26,9 @@
 }
 
 .main {
-  margin: 0 45px 64px;
+  padding: 0 0 64px;
   display: flex;
+  justify-content: space-between;
 
   &__image {
     height: 180px;
@@ -81,10 +82,6 @@
     padding: 16px;
     border: 1px solid #D1D1D1;
     border-radius: 12px;
-  }
-
-  &__1:not(last-child) {
-    margin-right: 32px;
   }
 
   &__del {
