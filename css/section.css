@@ -1,0 +1,17 @@
+.section {
+  width: 1260px;
+  height: 530px;
+}
+
+.box {
+  width: 1170px;
+  height: 38px;
+  display: flex;
+  margin: 64px 45px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.box__headline {
+  padding: 0;
+  margin: 5px 0;
+}/*# sourceMappingURL=section.css.map */
